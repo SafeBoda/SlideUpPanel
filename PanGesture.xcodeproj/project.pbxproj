@@ -14,8 +14,8 @@
 		615B6D2921C243F1000CC78D /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 615B6D2721C243F1000CC78D /* HomeViewController.xib */; };
 		615B6D2C21C24411000CC78D /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615B6D2A21C24411000CC78D /* ContentViewController.swift */; };
 		615B6D2D21C24411000CC78D /* ContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 615B6D2B21C24411000CC78D /* ContentViewController.xib */; };
-		6193BC1C21C381EB00E34C85 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6193BC1A21C381EB00E34C85 /* MyViewController.swift */; };
-		6193BC1D21C381EB00E34C85 /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6193BC1B21C381EB00E34C85 /* MyViewController.xib */; };
+		61EB83CA21C3A54A00E35196 /* PanelGrabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EB83C921C3A54A00E35196 /* PanelGrabView.swift */; };
+		61EB83CC21C3A56400E35196 /* PanelGrabView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61EB83CB21C3A56400E35196 /* PanelGrabView.xib */; };
 		85301151908A8B744FE2068D /* Pods_PanGesture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C57A3BB744DC6C5664C2206E /* Pods_PanGesture.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,8 +30,8 @@
 		615B6D2721C243F1000CC78D /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		615B6D2A21C24411000CC78D /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 		615B6D2B21C24411000CC78D /* ContentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContentViewController.xib; sourceTree = "<group>"; };
-		6193BC1A21C381EB00E34C85 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
-		6193BC1B21C381EB00E34C85 /* MyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyViewController.xib; sourceTree = "<group>"; };
+		61EB83C921C3A54A00E35196 /* PanelGrabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelGrabView.swift; sourceTree = "<group>"; };
+		61EB83CB21C3A56400E35196 /* PanelGrabView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PanelGrabView.xib; sourceTree = "<group>"; };
 		918AC7118A228A3B62DEB763 /* Pods-PanGesture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PanGesture.release.xcconfig"; path = "Pods/Target Support Files/Pods-PanGesture/Pods-PanGesture.release.xcconfig"; sourceTree = "<group>"; };
 		C57A3BB744DC6C5664C2206E /* Pods_PanGesture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PanGesture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -94,8 +94,8 @@
 				615B6D2721C243F1000CC78D /* HomeViewController.xib */,
 				615B6D2A21C24411000CC78D /* ContentViewController.swift */,
 				615B6D2B21C24411000CC78D /* ContentViewController.xib */,
-				6193BC1A21C381EB00E34C85 /* MyViewController.swift */,
-				6193BC1B21C381EB00E34C85 /* MyViewController.xib */,
+				61EB83C921C3A54A00E35196 /* PanelGrabView.swift */,
+				61EB83CB21C3A56400E35196 /* PanelGrabView.xib */,
 			);
 			path = PanGesture;
 			sourceTree = "<group>";
@@ -160,10 +160,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				615B6D2D21C24411000CC78D /* ContentViewController.xib in Resources */,
+				61EB83CC21C3A56400E35196 /* PanelGrabView.xib in Resources */,
 				615B6D1F21C0E9DF000CC78D /* LaunchScreen.storyboard in Resources */,
 				615B6D1C21C0E9DF000CC78D /* Assets.xcassets in Resources */,
 				615B6D2921C243F1000CC78D /* HomeViewController.xib in Resources */,
-				6193BC1D21C381EB00E34C85 /* MyViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,8 +200,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				615B6D1521C0E9DC000CC78D /* AppDelegate.swift in Sources */,
+				61EB83CA21C3A54A00E35196 /* PanelGrabView.swift in Sources */,
 				615B6D2C21C24411000CC78D /* ContentViewController.swift in Sources */,
-				6193BC1C21C381EB00E34C85 /* MyViewController.swift in Sources */,
 				615B6D2821C243F1000CC78D /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -13,14 +13,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         window = UIWindow(frame: UIScreen.main.bounds)
-//        let pulley = PulleyViewController(contentViewController: HomeViewController(), drawerViewController: ContentViewController())
-//        pulley.animationSpringDamping = 3.0
-//        pulley.initialDrawerPosition = .partiallyRevealed
-//        pulley.snapMode = .nearestPosition
-        window?.rootViewController = MyViewController()
+        window?.rootViewController = HomeViewController()
         window?.makeKeyAndVisible()
         return true
     }

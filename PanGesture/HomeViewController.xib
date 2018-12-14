@@ -14,6 +14,7 @@
             <connections>
                 <outlet property="abcButton" destination="TMl-OQ-b59" id="Ev5-RX-6NC"/>
                 <outlet property="defButton" destination="3pd-Sg-DPz" id="S4N-kU-43O"/>
+                <outlet property="panelView" destination="5Cl-Ij-ffx" id="MDl-bE-nGI"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -38,15 +39,38 @@
                     </constraints>
                     <state key="normal" title="DEF"/>
                 </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Cl-Ij-ffx">
+                    <rect key="frame" x="0.0" y="539" width="375" height="128"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7f2-V7-iGz" customClass="PanelGrabView" customModule="PanGesture" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="20"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="20" id="s8X-sU-24h"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="7f2-V7-iGz" secondAttribute="trailing" id="Imm-IF-SwK"/>
+                        <constraint firstItem="7f2-V7-iGz" firstAttribute="top" secondItem="5Cl-Ij-ffx" secondAttribute="top" id="Nft-o2-ofJ"/>
+                        <constraint firstItem="7f2-V7-iGz" firstAttribute="leading" secondItem="5Cl-Ij-ffx" secondAttribute="leading" id="oOn-na-EYP"/>
+                        <constraint firstAttribute="height" constant="128" id="uPs-F0-k8U"/>
+                    </constraints>
+                </view>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstItem="5Cl-Ij-ffx" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="CrT-um-FBq"/>
+                <constraint firstItem="5Cl-Ij-ffx" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="FFo-jS-Sqb"/>
                 <constraint firstItem="TMl-OQ-b59" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="NSv-Vh-Ia6"/>
                 <constraint firstItem="3pd-Sg-DPz" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="ZUl-qE-qzu"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="3pd-Sg-DPz" secondAttribute="trailing" constant="16" id="ZeJ-dd-GeJ"/>
+                <constraint firstItem="5Cl-Ij-ffx" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="gPk-yP-bkz"/>
                 <constraint firstItem="TMl-OQ-b59" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="jr9-wv-b2j"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="138.40000000000001" y="152.47376311844079"/>
         </view>
     </objects>
 </document>
