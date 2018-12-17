@@ -1,5 +1,7 @@
 # SlideUpPanel
 
+![](slider.gif)
+
 ## How to use
 ### In AppDelegate
 ``` 
