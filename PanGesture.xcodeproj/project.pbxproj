@@ -10,7 +10,7 @@
 		615B6D1521C0E9DC000CC78D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615B6D1421C0E9DC000CC78D /* AppDelegate.swift */; };
 		615B6D1C21C0E9DF000CC78D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 615B6D1B21C0E9DF000CC78D /* Assets.xcassets */; };
 		615B6D1F21C0E9DF000CC78D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 615B6D1D21C0E9DF000CC78D /* LaunchScreen.storyboard */; };
-		615B6D2821C243F1000CC78D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615B6D2621C243F1000CC78D /* HomeViewController.swift */; };
+		615B6D2821C243F1000CC78D /* SlideUpPanelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615B6D2621C243F1000CC78D /* SlideUpPanelController.swift */; };
 		615B6D2921C243F1000CC78D /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 615B6D2721C243F1000CC78D /* HomeViewController.xib */; };
 		615B6D2C21C24411000CC78D /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615B6D2A21C24411000CC78D /* ContentViewController.swift */; };
 		615B6D2D21C24411000CC78D /* ContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 615B6D2B21C24411000CC78D /* ContentViewController.xib */; };
@@ -28,7 +28,7 @@
 		615B6D1B21C0E9DF000CC78D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		615B6D1E21C0E9DF000CC78D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		615B6D2021C0E9DF000CC78D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		615B6D2621C243F1000CC78D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		615B6D2621C243F1000CC78D /* SlideUpPanelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideUpPanelController.swift; sourceTree = "<group>"; };
 		615B6D2721C243F1000CC78D /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		615B6D2A21C24411000CC78D /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 		615B6D2B21C24411000CC78D /* ContentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContentViewController.xib; sourceTree = "<group>"; };
@@ -94,7 +94,7 @@
 				615B6D1B21C0E9DF000CC78D /* Assets.xcassets */,
 				615B6D1D21C0E9DF000CC78D /* LaunchScreen.storyboard */,
 				615B6D2021C0E9DF000CC78D /* Info.plist */,
-				615B6D2621C243F1000CC78D /* HomeViewController.swift */,
+				615B6D2621C243F1000CC78D /* SlideUpPanelController.swift */,
 				615B6D2721C243F1000CC78D /* HomeViewController.xib */,
 				615B6D2A21C24411000CC78D /* ContentViewController.swift */,
 				615B6D2B21C24411000CC78D /* ContentViewController.xib */,
@@ -210,7 +210,7 @@
 				61EB83CA21C3A54A00E35196 /* PanelGrabView.swift in Sources */,
 				615B6D2C21C24411000CC78D /* ContentViewController.swift in Sources */,
 				61EB83F321C3ECB900E35196 /* ParentViewC.swift in Sources */,
-				615B6D2821C243F1000CC78D /* HomeViewController.swift in Sources */,
+				615B6D2821C243F1000CC78D /* SlideUpPanelController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

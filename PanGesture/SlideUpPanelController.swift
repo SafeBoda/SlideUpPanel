@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class SlideUpPanelController: UIViewController {
 
     @IBOutlet weak var defButton: UIButton!
     @IBOutlet weak var abcButton: UIButton!
@@ -107,7 +107,7 @@ class HomeViewController: UIViewController {
     }
 }
 
-extension HomeViewController: HeightsDelegate {
+extension SlideUpPanelController: HeightsDelegate {
     var maximumY: CGFloat {
         return 40.0
     }
