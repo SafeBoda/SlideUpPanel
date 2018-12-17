@@ -21,9 +21,11 @@ class PanelGrabView: UIView {
         setupView()
     }
     
-    func setupView() {
-        grabView = Bundle.main.loadNibNamed("PanelGrabView", owner: self, options: nil)?.first as? PanelGrabView
+    private func setupView() {
+        Bundle.main.loadNibNamed("PanelGrabView", owner: self, options: nil)
         grabView.frame = bounds
+        grabView.layer.masksToBounds = false
+        grabView.backgroundColor = .lightGray
         grabView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         addSubview(grabView)
     }
