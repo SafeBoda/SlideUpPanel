@@ -21,7 +21,7 @@ class SlideUpPanelController: UIViewController {
     init(parent: UIViewController, content: UIViewController) {
         parentController = parent
         contentController = content
-        super.init(nibName: nil, bundle: nil)
+        super.init(nibName: "HomeViewController", bundle: nil)
     }
     
     required init?(coder aDecoder: NSCoder) {
